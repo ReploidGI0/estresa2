@@ -1,0 +1,19 @@
+a {
+    transition: background-color .5s;
+    border-radius: 15px;
+}
+  
+  a:hover {
+    background-color: darkblue;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:midnightblue;
+  color: white;
+}
+
+p{
+  font-size: 110%;
+}
