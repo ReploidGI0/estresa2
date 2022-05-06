@@ -1,112 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Carrusel con Bootstrap</title>
+  <title>Tratamientos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <div>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#" style="padding: 1%;">Tratamientos/a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto" style="padding-left: 1%;">
-            <li class="nav-item active" style="padding-right: 5%;">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item" style="padding-right: 5%;">
-              <a class="nav-link" href="factores.html">Factores</a>
-            </li>
-            <li class="nav-item" style="padding-right: 5%;">
-              <a class="nav-link" href="consecuencias.html">Consecuencias</a>
-            </li>
-            <li class="nav-item" style="padding-right: 5%;">
-              <a class="nav-link" href="tratamientos.html">Tratamientos</a>
-            </li>
-            <li class="nav-item" style="padding-right: 5%;">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-  </div>
-
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" style="padding: 1%;"><img src="images/logo.png" style="height:120%;width:150%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="padding-left: 1%;">
+          <li class="nav-item active" style="padding-right: 5%;">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="factores.html">Factores</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="consecuencias.html">Consecuencias</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+          <a style="color:blue" href="https://www.facebook.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+          </li>
+          <li>
+          <a style="color: aqua;" href="https://twitter.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></a>
+          </li>
+          <li>
+          <a style="color: red;" href="https://www.youtube.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
   <div class="container">
     <section>
-      <h1>Tratamienos del estres </h1>
-      <h2>Encuentre técnicas saludables para manejar el estrés</h2>
-      <p>Existen muchas maneras de manejar el estrés. Pruebe algunas para averiguar cuáles funcionan mejor para usted.</p> 
+      <h2>Tratamientos contra el estrés </h2><center>
+      <p class="parrafos">Existen muchas maneras de manejar el estrés. Pruebe algunas para averiguar cuáles funcionan mejor para usted.</pc> 
       <div>
-        <table>
+        <table class="table table-striped">
           <tr>
-            <td>Reconozca las cosas que no puede cambiar.</td>
+            <td class="titulotabla"><b>Reconozca las cosas que no puede cambiar.</b></td>
             <td>Aceptar que no puede cambiar ciertas cosas le permite dejarlas ir y no alterarse. 
               Por ejemplo, no puede cambiar el hecho de que debe conducir durante la hora pico. 
               Pero puede buscar maneras de relajarse en el trayecto, como escuchar un podcast o un audiolibro.</td>
-            <br>
+            
           </tr>
           <tr>
-            <td>Haga ejercicio.</td>
+            <td class="titulotabla"><b>Haga ejercicio.</b></td>
             <td> Realizar actividades físicas todos los días es la mejor y más fácil manera de lidiar con el estrés. 
               Al hacer ejercicio, su cerebro libera químicos que lo hacen sentir bien. 
               También puede ayudarle con su energía reprimida o su frustración. Busque algo que disfrute, ya sea caminar, montar en bicicleta, jugar softball, nadar o bailar, y hágalo por al menos 30 minutos la mayoría de los días.</td>
-          <br>
+          
           </tr>
           <tr>
-            <td>Cambie su perspectiva.</td>
-            <td>. Intente desarrollar una actitud más positiva ante los desafíos. 
+            <td class="titulotabla"><b>Cambie su perspectiva.</b></td>
+            <td>Intente desarrollar una actitud más positiva ante los desafíos. 
               Puede hacerlo reemplazando los pensamientos negativos con pensamientos más positivos. 
               Por ejemplo, en lugar de pensar, "¿por qué siempre todo sale mal?", cambie esa idea por, "puedo encontrar una manera de superar esto". Puede parecer difícil o tonto en un principio, pero podría descubrir que esto le ayuda a dar un giro a su perspectiva.</td>
-          <br></tr>
+          </tr>
           <tr>
-            <td>Haga algo que disfrute.</td>
+            <td class="titulotabla"><b>Haga algo que disfrute.</b></td>
             <td> Cuando el estrés lo tenga decaído, haga algo que disfrute para ayudar a ponerlo de pie de nuevo. 
               Puede ser algo tan simple como leer un buen libro, escuchar música, ver su película favorita o salir a cenar con un amigo. O comience un nuevo pasatiempo o clase. Sin importar lo que elija, intente hacer al menos una cosa al día que sea solo para usted.</td>
-          <br></tr>
+          </tr>
           <tr>
-            <td>Aprenda nuevas maneras para relajarse.</td>
+            <td class="titulotabla"><b>Aprenda nuevas maneras para relajarse.</b></td>
             <td>La práctica de técnicas de relajación es una gran manera de lidiar con el estrés del día a día. 
               Las técnicas de relajación le ayudan a disminuir el ritmo cardíaco y reducir la presión sanguínea. 
               Existen muchos tipos, desde respiraciones profundas y meditación hasta yoga y taichí. Tome una clase o intente aprender de libros, videos o recursos en línea.</td>
-          <br></tr>
+          </tr>
           <tr>
-            <td>Conéctese con sus seres queridos.</td>
+            <td class="titulotabla"><b>Conéctese con sus seres queridos.</b></td>
             <td>No deje que el estrés se interponga entre usted y su vida social. Pasar tiempo con familiares y amigos puede ayudarle a sentirse mejor y olvidarse del estrés. Confiar sus problemas a un amigo también puede ayudarle a resolverlos.</td>
-          <br></tr>
+          </tr>
           <tr>
-            <td>Duerma lo suficiente.</td>
+            <td class="titulotabla"><b>Duerma lo suficiente.</b></td>
             <td>Descansar suficientemente durante la noche puede ayudarle a pensar con más claridad y a tener más energía. 
               Esto hará que sea más fácil manejar cualquier problema que pueda surgir. Intente dormir entre 7 y 9 horas todas las noches.</td>
           </tr>
-          <br><tr>
-            <td>Mantenga una dieta saludable.</td>
+          <tr>
+            <td class="titulotabla"><b>Mantenga una dieta saludable.</b></td>
             <td> Comer alimentos saludables ayuda a darle energía a su cuerpo y su mente. 
               Evite los refrigerios con altos contenidos de azúcar y consuma muchas verduras, frutas, granos integrales, lácteos reducidos o libres de grasas y proteínas magras.</td>
-          <br></tr>
+          </tr>
           <tr>
-            <td>Aprenda a decir que no.</td>
+            <td class="titulotabla"><b>Aprenda a decir que no.</b></td>
             <td>Si su estrés viene de realizar demasiadas tareas en casa o en el trabajo, aprenda a establecer límites. 
               Pida ayuda a los demás cuando la necesite.</td>
-          <br></tr>
+          </tr>
         </table>
       </div>  
+    </center>
     </section>
-  </div>
-<!--footer1-->
-<!--footer1-->
+  </div><hr>
+
+ <!--Paginación-->
+<center>
+	<ul class="pagination pagination-lg">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="factores.html">Factores</a></li>
+		<li><a href="consecuencias.html">Consecuencias</a></li>
+		<li><a href="tratamientos.html">Tratamientos</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+</center>
+
+<!--Footer-->
 <footer>
-  <p>Factores de Salud<br>
-  Instituto Tecnológico de Tijuana</p>
+	<div class="footer-basic">
+		<footer>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="acercade.html" style="color: white;">Acerca de Nosotros</a></li>
+			</ul>
+			<p class="copyright">Estresa2 © 2022</p>
+		</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </footer>
 </body>
 </html>
