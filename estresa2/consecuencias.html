@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!--Head con referencias/estilos bootstrap-->
+  <title>Consecuencias</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Header y Navbar-->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" style="padding: 1%;"><img src="images/logo.png" style="height:120%;width:150%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="padding-left: 1%;">
+          <li class="nav-item active" style="padding-right: 5%;">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="factores.html">Factores</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="consecuencias.html">Consecuencias</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+          </li>
+          <li class="nav-item" style="padding-right: 5%;">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+          <a style="color:blue" href="https://www.facebook.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+          </li>
+          <li>
+          <a style="color: aqua;" href="https://twitter.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></a>
+          </li>
+          <li>
+          <a style="color: red;" href="https://www.youtube.com/TecNMTijuana"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg></a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+</header>
+
+<!--Contenido de la pagina-->
+<div class="container">
+  <section>
+    <h2>Estrés Académico: Causas y Consecuencias</h2><hr>
+    <img src="images/sintomas.jpg" align="right" style="width:30%;padding-left: 1%;"class="img-rounded" alt="Sintomas de Estrés"><br>
+      <p class="parrafos">Los síntomas de estrés pueden estar afectando tu salud, aunque no te des cuenta. 
+        Puedes pensar que una enfermedad es la culpable de ese dolor de cabeza irritante, de tu frecuente 
+        insomnio o de tu menor productividad en el trabajo. Pero el estrés puede ser la causa.</p><br>
+
+      <p class="parrafos">El estrés puede afectar tu cuerpo, tus pensamientos y sentimientos, y tu comportamiento. 
+        Ser capaz de reconocer los síntomas comunes de estrés puede ayudarte a controlarlos. El estrés que no se controla 
+        puede contribuir a muchos problemas de salud, como la presión arterial alta, las enfermedades cardíacas, la 
+        obesidad y la diabetes.</p><br>
+      <p class="parrafos">Las causas del estrés académico en estudiantes entre los que podemos mencionar son los siguientes:</p><hr>
+        <ul class="list-group"><!--Inicio de Lista-->
+          <li class="list-group-item list-group-item-info">1. Competitividad grupal.</li>
+          <li class="list-group-item">2. Realización de un examen.</li>
+          <li class="list-group-item list-group-item-info">3. Sobrecargas de tareas.</li>
+          <li class="list-group-item">4. Exposición de trabajos en clase.</li>
+          <li class="list-group-item list-group-item-info">5. Exceso de responsabilidad.</li>
+          <li class="list-group-item">6. Intervención en el aula (responder a una pregunta del profesor,
+              realizar preguntas, participar en coloquios, etc.)</li>
+          <li class="list-group-item list-group-item-info">7. Subir al despacho del profesor en horas de tutorías.</li>
+          <li class="list-group-item">8. Ambiente físico desagradable.</li>
+          <li class="list-group-item list-group-item-info">9. Sobrecarga académica (excesivo número de créditos, trabajos obligatorios, etc.)</li>
+          <li class="list-group-item">10. Masificación de las aulas.</li>
+          <li class="list-group-item list-group-item-info">11. Tiempo limitado para hacer el trabajo.</li>
+          <li class="list-group-item">12. Problemas o conflictos con los tutores.</li>
+          <li class="list-group-item list-group-item-info">13. Problemas o conflictos con tus compañeros.</li>
+          <li class="list-group-item">14. Realización de trabajos obligatorios para aprobar 
+              las asignaturas (búsqueda de material necesario, redactar el trabajo, etc.)</li>
+          <li class="list-group-item list-group-item-info">15. Las evaluaciones.</li>
+          <li class="list-group-item">16. La tarea de estudio.</li>
+          <li class="list-group-item list-group-item-info">17. Tipo de trabajo que se te pide</li>
+          <li class="list-group-item">18. Trabajar en grupo.</li>
+        </ul><br><!--Fin de Lista-->
+
+      <p class="parrafos">
+        Las primeras consecuencias del estrés son pequeñas cosas sin mucha importancia, pero a las que conviene 
+        estar alerta para evitar que el problema siga creciendo se muestran a continuación:<br></p><hr>
+        <ul class="list-group"><!--Inicio de Lista-->
+          <li class="list-group-item list-group-item-info">1. Falta de concentración, fatiga intelectual, inapetencia a las tareas habituales, descuidos.<br></li>
+          <li class="list-group-item">2. Dificultad de recuperación, que produce un agotamiento constante. Se hace difícil levantarse por la mañana.<br></li>
+          <li class="list-group-item list-group-item-info">3. Descenso del rendimiento intelectual o físico, depresión, tristeza.<br></li>
+          <li class="list-group-item">4. Fatiga sexual, descenso del deseo, dificultades en la erección y el orgasmo.<br></li>
+          <li class="list-group-item list-group-item-info">5. Nerviosismo, exceso de actividad, ansiedad, angustia. Impaciencia, irritabilidad. Se descarga la tensión al menor estímulo sin importancia.<br></li>
+          <li class="list-group-item">6. Insomnio. Produce falta de descanso que agrava aún más la situación.<br></li>
+          <li class="list-group-item list-group-item-info">7. Acidez de estómago, indigestión, digestiones difíciles. Dolor de cabeza con excesiva frecuencia.<br></li>
+          <li class="list-group-item">8. Tics y movimientos involuntarios. Tabletear sobre la mesa, dar vueltas a un bolígrafo, etc.<br></li>
+          <li class="list-group-item list-group-item-info">9. Dolores de espalda y cuello. La tensión se acumula sobre los músculos de la espalda.<br></li>
+        </ul><!--Fin de Lista-->
+  </section>
+</div>
+
+      <!-- Galeria de Imágenes -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img src="images/faltaconc.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Falta de concentración">
+      <img src="images/agotamiento.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Agotamiento Constante">
+    </div>
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img src="images/nerviosismo.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Nerviosismo">
+      <img src="images/insomnio.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Insomnio">
+    </div>
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img src="images/acidez.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Acidez Estomacal">
+      <img src="images/dolores.jpg" class="w-50 shadow-1-strong rounded mb-4" alt="Dolores de espalda y cuello">
+    </div>
+  </div>
+  
+</div><hr>
+
+<!--Paginación-->
+<center>
+	<ul class="pagination pagination-lg">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="factores.html">Factores</a></li>
+		<li><a href="consecuencias.html">Consecuencias</a></li>
+		<li><a href="tratamientos.html">Tratamientos</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+</center>
+
+<!--Footer-->
+<footer>
+	<div class="footer-basic">
+		<footer>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="acercade.html" style="color: white;">Acerca de Nosotros</a></li>
+			</ul>
+			<p class="copyright">Estresa2 © 2022</p>
+		</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>
+</body>
+</html>
